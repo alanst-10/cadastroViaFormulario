@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+section {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: orange;
+  padding: 20px;
+  border-radius: 5px;
+  width: 20%;
+  font-size: 1rem;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+}
+
+section form input {
+  color: black;
+}
+
+section form input.enviar {
+  height: 25px;
+  background-color: white;
+  color: orange;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+section form input.enviar:hover {
+  opacity: 0.5;
+}
